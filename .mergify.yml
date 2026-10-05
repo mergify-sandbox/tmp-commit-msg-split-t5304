@@ -1,0 +1,8 @@
+queue_rules:
+  - name: default
+    queue_conditions:
+      - label=queue
+    merge_method: squash
+    commit_message_format:
+      title: pr-title
+      body: pr-body
